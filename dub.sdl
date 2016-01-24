@@ -1,0 +1,7 @@
+name "libsamplerate"
+description "Deimos Bindings for libsamplerate."
+license "GPL-2.0 or later or proprietary"
+homepage "http://www.mega-nerd.com/SRC/"
+importPaths "."
+targetType "sourceLibrary"
+libs "samplerate" platform="posix"
